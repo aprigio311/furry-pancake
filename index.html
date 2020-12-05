@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="gray">
+    <div id="container">
+        <div id="start">Começe o Quiz</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="ChecarPergunta('A')"></div>
+                <div class="choice" id="B" onclick="ChecarPergunta('B')"></div>
+                
+               
+                
+            </div>
+            <div id="relogio">
+                <div id="contador"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
